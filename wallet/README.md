@@ -34,6 +34,8 @@ This is an iOS demo of Newpay. You can refer to this demo to build your own Newp
 
 #### 4. [newpay-keystore-ios](https://github.com/newtondevelop/newpay-keystore-ios)
 
+A general-purpose Ethereum keystore for managing wallets, which forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
+
 ### Python
 
 #### 1. [HD-Wallet-Python](https://github.com/weixuefeng/newton-bip44-python)
