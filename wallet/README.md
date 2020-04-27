@@ -1,5 +1,5 @@
 # Wallet Protocol
-===
+
 ## Library
 
 ### Java
