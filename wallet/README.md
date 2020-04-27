@@ -30,11 +30,15 @@ This is an iOS demo of Newpay. You can refer to this demo to build your own Newp
 
 #### 2. [newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios)
 
+A CocoaPods wrapper around the [trezor-crypto](https://github.com/trezor/trezor-crypto) C library.
+
 #### 3. [newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios)
+
+Core Ethereum data structures and algorithms, which is forked and modified from [trust-core](https://github.com/trustwallet/trust-core).
 
 #### 4. [newpay-keystore-ios](https://github.com/newtondevelop/newpay-keystore-ios)
 
-A general-purpose Ethereum keystore for managing wallets, which forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
+A general-purpose Ethereum keystore for managing wallets, which is forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
 
 ### Python
 
