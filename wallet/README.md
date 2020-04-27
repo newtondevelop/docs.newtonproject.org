@@ -1,33 +1,58 @@
-Wallet Protocol
-===
+# Wallet Protocol
 
+## Library
 
-## [Newpay-android-example](https://github.com/newtondevelop/newpay-android-example)
+### Java
 
-Newpay android example 是 Newpay android 客户端的 demo，可以参考该项目开发自己的 Newpay Android 钱包。
+#### 1. [newton-web3j](https://github.com/newtondevelop/newton-web3j)
 
-### [Newpay-keystore-java](https://github.com/newtondevelop/newton-keystore-java)
+This library is forked from [web3j](https://github.com/web3j/web3j). 
 
-该库 fork 自 [Bitcoinj](https://github.com/bitcoinj/bitcoinj), 以便支持 [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) 协议, 是 [Newpay-android-example](#Newpay-android-example) 依赖的一个基础库。其中修改[Bitcoin seed](https://github.com/bitcoinj/bitcoinj/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) 为 [Nist256p1 seed](https://github.com/newtondevelop/newton-keystore-java/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) 标识算法差异。
+See more at [newton-web3j](https://github.com/newtondevelop/newton-web3j)
 
-### [Newton-Web3j](https://github.com/newtondevelop/newton-web3j)
+### Android 
 
-该库 fork 自 [Web3j](https://github.com/web3j/web3j), 详见 [README.rst](https://github.com/newtondevelop/newton-web3j/blob/newton/README.rst)
+#### 1. [newpay-android-example](https://github.com/newtondevelop/newpay-android-example)
 
-## [Newpay-ios-example](https://github.com/newtondevelop/newpay-ios-example)
+This is an Android demo of Newpay. You can refer to this demo to build your own Newpay Android wallet.
 
-Newpay ios example 是 Newpay ios 客户端的 demo，可以参考该项目开发自己的 Newpay IOS 钱包。
+#### 2. [newpay-keystore-java](https://github.com/newtondevelop/newton-keystore-java)
 
-### [Newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios)
+This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [newpay-android-example](#newpay-android-example) to depend on.
 
-### [Newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios)
+We changed [Bitcoin seed](https://github.com/bitcoinj/bitcoinj/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) to [Nist256p1 seed](https://github.com/newtondevelop/newton-keystore-java/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65).
 
-### [Newpay-keystore-ios](https://github.com/newtondevelop/newpay-keystore-ios)
+### iOS
 
-## [Newchain-sdk-example](https://github.com/newtonproject/newchain-sdk-example)
+#### 1. [newpay-ios-example](https://github.com/newtondevelop/newpay-ios-example)
+
+This is an iOS demo of Newpay. You can refer to this demo to build your own Newpay iOS wallet。
+
+#### 2. [newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios)
+
+#### 3. [newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios)
+
+#### 4. [newpay-keystore-ios](https://github.com/newtondevelop/newpay-keystore-ios)
+
+### Python
+
+#### 1. [HD-Wallet-Python](https://github.com/weixuefeng/newton-bip44-python)
+
+This repo support the bip44 protocol about newpay wallet with python.
+
+## Example
+
+### [newchain-sdk-example](https://github.com/newtonproject/newchain-sdk-example)
 
 This document describes how to get started with Newton's NewChain SDK.
 
-## [HD-Wallet-Python](https://github.com/weixuefeng/newton-bip44-python)
+#### 1. [Java example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/java)
 
-This repo support the bip44 protocol about newpay wallet with python.
+Example of NewChain SDK for java.
+
+#### 2. [Node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node)
+
+#### 3. [Python example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/python)
+
+
+
