@@ -4,7 +4,7 @@
 
 ### Java
 
-- Newton web3j for Java
+#### Newton web3j for Java
 
   This library is forked from [web3j](https://github.com/web3j/web3j). 
 
@@ -12,13 +12,13 @@
 
 ### Android 
 
-- Newton web3j for Android
+#### Newton web3j for Android
 
   This library is forked from [web3j](https://github.com/web3j/web3j). 
 
   See more at **[newton-web3j](https://github.com/newtondevelop/newton-web3j/tree/newton-android)**(It\`s in the same repo with java library but in different branch).
 
-- NewPay keystore for Java
+#### NewPay keystore for Java
 
   This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [NewPay Android example](#NewPay Android example) to depend on.
 
@@ -28,19 +28,19 @@
 
 ### iOS
 
-- Newpay Crypto iOS
+#### Newpay Crypto iOS
 
   A CocoaPods wrapper around the [trezor-crypto](https://github.com/trezor/trezor-crypto) C library.
 
   See more at **[newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios)**.
 
-- Newpay Contract Utility
+#### Newpay Contract Utility
 
   Core Ethereum data structures and algorithms, which is forked and modified from [trust-core](https://github.com/trustwallet/trust-core).
 
   See more at **[newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios)**.
 
-- NewPay Keystore for iOS
+#### NewPay Keystore for iOS
 
   A general-purpose Ethereum keystore for managing wallets, which is forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
 
@@ -48,7 +48,7 @@
 
 ### Python
 
-- Newton BIP44 Python
+#### Newton BIP44 Python
 
   This repo support the bip44 protocol about newpay wallet with python.
 
