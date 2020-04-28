@@ -88,7 +88,7 @@
 
   Example of NewChain SDK for java.
 
-  See more at **[Java example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/java)**.
+  See more at **[Java example](https://github.com/newtondevelop/newton-example-java)**.
 
 ### Node
 
