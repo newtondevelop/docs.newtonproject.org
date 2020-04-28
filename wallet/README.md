@@ -105,3 +105,12 @@
   Example of NewChain SDK for python.
 
   See more at **[python example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/python)**.
+
+## Others
+
+### NewChain Address Identifier (NAI)
+
+This documentation explains the address identification system used by NewChain, the blockchain behind Newton's ecosystem.
+
+See more at **[NewChain Address Identifier](https://github.com/newtonproject/newchain-sdk-example/blob/master/address_standards.md)**.
+
