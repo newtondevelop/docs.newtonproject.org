@@ -4,93 +4,92 @@
 
 ### Java
 
-#### Newton web3j for Java
+- Newton web3j for Java
 
-This library is forked from [web3j](https://github.com/web3j/web3j). 
+  This library is forked from [web3j](https://github.com/web3j/web3j). 
 
-See more at [newton-web3j](https://github.com/newtondevelop/newton-web3j/tree/newton).
+  See more at [newton-web3j](https://github.com/newtondevelop/newton-web3j/tree/newton).
 
 ### Android 
 
-#### Newton web3j for Android
+- Newton web3j for Android
 
-This library is forked from [web3j](https://github.com/web3j/web3j). 
+  This library is forked from [web3j](https://github.com/web3j/web3j). 
 
-See more at [newton-web3j](https://github.com/newtondevelop/newton-web3j/tree/newton-android)(It\`s in the same repo with java library but in different branch).
+  See more at [newton-web3j](https://github.com/newtondevelop/newton-web3j/tree/newton-android)(It\`s in the same repo with java library but in different branch).
 
-#### NewPay keystore for Java
+- NewPay keystore for Java
 
-This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [NewPay Android example](#NewPay Android example) to depend on.
+  This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [NewPay Android example](#NewPay Android example) to depend on.
 
-We changed [Bitcoin seed](https://github.com/bitcoinj/bitcoinj/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) to [Nist256p1 seed](https://github.com/newtondevelop/newton-keystore-java/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L66).
+  We changed [Bitcoin seed](https://github.com/bitcoinj/bitcoinj/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) to [Nist256p1 seed](https://github.com/newtondevelop/newton-keystore-java/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L66).
 
-See more at [newpay-keystore-java](https://github.com/newtondevelop/newton-keystore-java).
+  See more at [newpay-keystore-java](https://github.com/newtondevelop/newton-keystore-java).
 
 ### iOS
 
-#### 1. Newpay Crypto iOS
+1. Newpay Crypto iOS
 
-A CocoaPods wrapper around the [trezor-crypto](https://github.com/trezor/trezor-crypto) C library.
+  A CocoaPods wrapper around the [trezor-crypto](https://github.com/trezor/trezor-crypto) C library.
 
-See more at [newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios).
+  See more at [newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios).
 
-#### 2. Newpay Contract Utility
+2. Newpay Contract Utility
 
-Core Ethereum data structures and algorithms, which is forked and modified from [trust-core](https://github.com/trustwallet/trust-core).
+  Core Ethereum data structures and algorithms, which is forked and modified from [trust-core](https://github.com/trustwallet/trust-core).
 
-See more at [newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios).
+  See more at [newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios).
+3. NewPay Keystore for iOS
 
-#### 3. NewPay Keystore for iOS
+  A general-purpose Ethereum keystore for managing wallets, which is forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
 
-A general-purpose Ethereum keystore for managing wallets, which is forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
-
-See more at [newpay-keystore-ios](https://github.com/newtondevelop/newpay-keystore-ios).
+  See more at [newpay-keystore-ios](https://github.com/newtondevelop/newpay-keystore-ios).
 
 ### Python
 
-#### 1. Newton BIP44 Python
+- Newton BIP44 Python
 
-This repo support the bip44 protocol about newpay wallet with python.
+  This repo support the bip44 protocol about newpay wallet with python.
 
-See more at [newton-bip44-python](https://github.com/weixuefeng/newton-bip44-python).
+  See more at [newton-bip44-python](https://github.com/weixuefeng/newton-bip44-python).
 
 ## Example
 
 ### NewChain SDK example
 
-This document describes how to get started with Newton's NewChain SDK.
+  This document describes how to get started with Newton's NewChain SDK.
 
-See more at [newchain-sdk-example](https://github.com/newtonproject/newchain-sdk-example).
+  See more at [newchain-sdk-example](https://github.com/newtonproject/newchain-sdk-example).
 
-#### 1. NewPay Android example 
+1. NewPay Android example 
 
-This is an Android demo of Newpay. You can refer to this demo to build your own Newpay Android wallet.
+  This is an Android demo of Newpay. You can refer to this demo to build your own Newpay Android wallet.
 
-See more at [newpay-android-example](https://github.com/newtondevelop/newpay-android-example).
+  See more at [newpay-android-example](https://github.com/newtondevelop/newpay-android-example).
 
-#### 2. NewPay iOS example
+2. NewPay iOS example
 
-This is an iOS demo of Newpay. You can refer to this demo to build your own Newpay iOS wallet。
+  This is an iOS demo of Newpay. You can refer to this demo to build your own Newpay iOS wallet。
 
-See more at [newpay-ios-example](https://github.com/newtondevelop/newpay-ios-example).
+  See more at [newpay-ios-example](https://github.com/newtondevelop/newpay-ios-example).
 
-#### 3. Java example
+3. Java example
 
-Example of NewChain SDK for java.
+  Example of NewChain SDK for java.
 
-See more at [Java example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/java).
+  See more at [Java example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/java).
 
-#### 4. Node example
+4. Node example
 
-Example of NewChain SDK for node.
+  Example of NewChain SDK for node.
 
-See more at [node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node).
+  See more at [node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node).
 
-#### 5. Python example
+5. Python example
 
-Example of NewChain SDK for python.
+  Example of NewChain SDK for python.
 
-See more at [python example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/python).
+  See more at [python example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/python).
 
 
 
