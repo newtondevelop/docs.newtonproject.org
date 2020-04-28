@@ -112,4 +112,11 @@
 
 This documentation explains the address identification system used by NewChain, the blockchain behind Newton's ecosystem.
 
+### [NewChain RPC API Reference](https://github.com/newtonproject/newchain-sdk-example/blob/master/RPC_API_reference.md)
+
+This documentation describes the RPC api which is supported by NewChain.
+
+### [NewChain IDs for Different Environments](https://github.com/newtonproject/newchain-sdk-example/blob/master/chain_id.md)
+
+This documentation describes the chain ID in different environments.
 
