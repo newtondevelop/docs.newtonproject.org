@@ -91,13 +91,13 @@
 
   See more at **[Java example](https://github.com/newtondevelop/newton-example-java)**.
 
-### Node
+### Node.js
 
-- #### Node example
+- #### Node.js example
 
   Example of NewChain SDK for node.
 
-  See more at **[Node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node)**.
+  See more at **[Node.js example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node)**.
 
 ### Python
 
@@ -123,14 +123,13 @@ This documentation explains the chain ID in different environments.
 
 ### Algorithm
 
-We use **ECDSA secp256r1** to generate public and private key.
+ECKeypair is generated using **ECDSA secp256r1** algorithm.
 
-The code below shows how to generate public and private key with **ECDSA secp256r1** in Node.
+The code below shows how to generate public and private key with **ECDSA secp256r1** in Node.js.
 
 ```
 var EC = require('elliptic').ec;
 var ec = new EC('p256');
-var base58check = require('base58check');
 // Generate keys
 var key = ec.genKeyPair();
 var privateKey = key.getPrivate('hex');
