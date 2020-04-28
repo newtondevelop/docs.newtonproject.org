@@ -97,7 +97,7 @@
 
   Example of NewChain SDK for node.
 
-  See more at **[node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node)**.
+  See more at **[Node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node)**.
 
 ### Python
 
@@ -125,3 +125,16 @@ This documentation explains the chain ID in different environments.
 
 We use **ECDSA secp256r1** to generate public and private key.
 
+The code below shows how to generate public and private key with **ECDSA secp256r1** in Node.
+
+```
+var EC = require('elliptic').ec;
+var ec = new EC('p256');
+var base58check = require('base58check');
+// Generate keys
+var key = ec.genKeyPair();
+var privateKey = key.getPrivate('hex');
+console.log('private key:' + privateKey);
+var publicKey = key.getPublic(false, 'hex').slice(2);
+console.log('uncompressed public key:' + publicKey)
+```
