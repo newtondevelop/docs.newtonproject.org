@@ -1,9 +1,42 @@
 # Wallet Protocol
 
-- [Libraries and Utils](#libraries-and-utils)
-- [Examples](#examples)
-- [Others](#others)
+- [NewChain](#newchain)
 
+- [Libraries and Utils](#libraries-and-utils)
+
+- [Examples](#examples)
+
+
+## NewChain
+
+### [NewChain Address Identifier (NAI)](https://github.com/newtonproject/newchain-sdk-example/blob/master/address_standards.md)
+
+This documentation explains the address identification system used by NewChain, the blockchain behind Newton's ecosystem.
+
+### [NewChain RPC API Reference](https://github.com/newtonproject/newchain-sdk-example/blob/master/RPC_API_reference.md)
+
+This documentation explains the RPC api which is supported by NewChain.
+
+### [NewChain IDs for Different Environments](https://github.com/newtonproject/newchain-sdk-example/blob/master/chain_id.md)
+
+This documentation explains the chain ID in different networks.
+
+### Algorithm
+
+ECKeypair is generated using **ECDSA secp256r1** algorithm.
+
+The code below shows how to generate public and private key with **ECDSA secp256r1** in Node.js.
+
+```
+var EC = require('elliptic').ec;
+var ec = new EC('p256');
+// Generate keys
+var key = ec.genKeyPair();
+var privateKey = key.getPrivate('hex');
+console.log('private key:' + privateKey);
+var publicKey = key.getPublic(false, 'hex').slice(2);
+console.log('uncompressed public key:' + publicKey)
+```
 
 ## Libraries and Utils
 
@@ -107,33 +140,3 @@
 
   See more at **[python example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/python)**.
 
-## Others
-
-### [NewChain Address Identifier (NAI)](https://github.com/newtonproject/newchain-sdk-example/blob/master/address_standards.md)
-
-This documentation explains the address identification system used by NewChain, the blockchain behind Newton's ecosystem.
-
-### [NewChain RPC API Reference](https://github.com/newtonproject/newchain-sdk-example/blob/master/RPC_API_reference.md)
-
-This documentation explains the RPC api which is supported by NewChain.
-
-### [NewChain IDs for Different Environments](https://github.com/newtonproject/newchain-sdk-example/blob/master/chain_id.md)
-
-This documentation explains the chain ID in different environments.
-
-### Algorithm
-
-ECKeypair is generated using **ECDSA secp256r1** algorithm.
-
-The code below shows how to generate public and private key with **ECDSA secp256r1** in Node.js.
-
-```
-var EC = require('elliptic').ec;
-var ec = new EC('p256');
-// Generate keys
-var key = ec.genKeyPair();
-var privateKey = key.getPrivate('hex');
-console.log('private key:' + privateKey);
-var publicKey = key.getPublic(false, 'hex').slice(2);
-console.log('uncompressed public key:' + publicKey)
-```
