@@ -121,3 +121,7 @@ This documentation explains the RPC api which is supported by NewChain.
 
 This documentation explains the chain ID in different environments.
 
+### [Algorithm]
+
+We use **ECDSA secp256r1** to generate public and private key.
+
