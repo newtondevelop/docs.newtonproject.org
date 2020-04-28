@@ -65,11 +65,15 @@
 
   See more at **[newchain-sdk-example](https://github.com/newtonproject/newchain-sdk-example)**.
 
+### Android
+
 - #### NewPay Android example 
 
   This is an Android demo of Newpay. You can refer to this demo to build your own Newpay Android wallet.
 
   See more at **[newpay-android-example](https://github.com/newtondevelop/newpay-android-example)**.
+
+### iOS
 
 - #### NewPay iOS example
 
@@ -77,17 +81,23 @@
 
   See more at **[newpay-ios-example](https://github.com/newtondevelop/newpay-ios-example)**.
 
+### Java
+
 - #### Java example
 
   Example of NewChain SDK for java.
 
   See more at **[Java example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/java)**.
 
+### Node
+
 - #### Node example
 
   Example of NewChain SDK for node.
 
   See more at **[node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node)**.
+
+### Python
 
 - #### Python example
 
