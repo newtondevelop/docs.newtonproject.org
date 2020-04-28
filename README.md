@@ -8,4 +8,6 @@ Resources for Newton developters.
   
   - [Examples](wallet/README.md/#examples)
   
+  - [Others](wallet/README.md/#others)
+  
 * [HEP Protocol](https://github.com/newtonproject/HEP-specification)
