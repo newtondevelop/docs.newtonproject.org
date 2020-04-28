@@ -108,9 +108,8 @@
 
 ## Others
 
-### NewChain Address Identifier (NAI)
+### [NewChain Address Identifier (NAI)](https://github.com/newtonproject/newchain-sdk-example/blob/master/address_standards.md)
 
 This documentation explains the address identification system used by NewChain, the blockchain behind Newton's ecosystem.
 
-See more at **[NewChain Address Identifier](https://github.com/newtonproject/newchain-sdk-example/blob/master/address_standards.md)**.
 
