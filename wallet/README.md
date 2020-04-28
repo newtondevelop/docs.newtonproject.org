@@ -28,18 +28,19 @@
 
 ### iOS
 
-1. Newpay Crypto iOS
+- Newpay Crypto iOS
 
   A CocoaPods wrapper around the [trezor-crypto](https://github.com/trezor/trezor-crypto) C library.
 
   See more at **[newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios)**.
 
-2. Newpay Contract Utility
+- Newpay Contract Utility
 
   Core Ethereum data structures and algorithms, which is forked and modified from [trust-core](https://github.com/trustwallet/trust-core).
 
   See more at **[newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios)**.
-3. NewPay Keystore for iOS
+
+- NewPay Keystore for iOS
 
   A general-purpose Ethereum keystore for managing wallets, which is forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
 
