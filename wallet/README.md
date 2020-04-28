@@ -1,5 +1,8 @@
 # Wallet Protocol
 
+- 
+
+
 ## Libraries and Utils
 
 ### Java
@@ -20,7 +23,7 @@
 
 - #### NewPay keystore for Java
 
-  This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [NewPay Android example](#NewPay Android example) to depend on.
+  This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [NewPay Android example](https://github.com/newtondevelop/newpay-android-example) to depend on.
 
   We changed [Bitcoin seed](https://github.com/bitcoinj/bitcoinj/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) to [Nist256p1 seed](https://github.com/newtondevelop/newton-keystore-java/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L66).
 
@@ -62,31 +65,31 @@
 
   See more at **[newchain-sdk-example](https://github.com/newtonproject/newchain-sdk-example)**.
 
-- #### 1. NewPay Android example 
+- #### NewPay Android example 
 
   This is an Android demo of Newpay. You can refer to this demo to build your own Newpay Android wallet.
 
   See more at **[newpay-android-example](https://github.com/newtondevelop/newpay-android-example)**.
 
-- #### 2. NewPay iOS example
+- #### NewPay iOS example
 
   This is an iOS demo of Newpay. You can refer to this demo to build your own Newpay iOS wallet。
 
   See more at **[newpay-ios-example](https://github.com/newtondevelop/newpay-ios-example)**.
 
-- #### 3. Java example
+- #### Java example
 
   Example of NewChain SDK for java.
 
   See more at **[Java example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/java)**.
 
-- #### 4. Node example
+- #### Node example
 
   Example of NewChain SDK for node.
 
   See more at **[node example](https://github.com/newtonproject/newchain-sdk-example/tree/master/examples/node)**.
 
-- #### 5. Python example
+- #### Python example
 
   Example of NewChain SDK for python.
 
