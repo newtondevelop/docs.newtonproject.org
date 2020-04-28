@@ -1,6 +1,7 @@
 # Wallet Protocol
 
-- 
+- [Libraries and Utils](#libraries-and-utils)
+- [Examples](#examples)
 
 
 ## Libraries and Utils
@@ -57,7 +58,7 @@
 
   See more at **[newton-bip44-python](https://github.com/weixuefeng/newton-bip44-python)**.
 
-## Example
+## Examples
 
 ### NewChain SDK example
 
