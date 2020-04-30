@@ -1,5 +1,6 @@
 # docs.newtonproject.org
 
+
 Resources for Newton developters.
 
 * [Wallet Protocol](wallet/README.md)
