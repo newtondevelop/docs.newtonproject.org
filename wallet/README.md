@@ -42,11 +42,11 @@ console.log('uncompressed public key:' + publicKey)
 
 ### Java
 
-- #### Newton web3j for Java
+- #### Newchain web3j for Java
 
   This library is forked from [web3j](https://github.com/web3j/web3j). 
 
-  See more at **[newton-web3j](https://github.com/newtondevelop/newton-web3j/tree/newton)**.
+  See more at **[newchain-web3j](https://github.com/newtonproject/newchain-web3j/tree/master)**.
 
 ### Android 
 
@@ -54,15 +54,15 @@ console.log('uncompressed public key:' + publicKey)
 
   This library is forked from [web3j](https://github.com/web3j/web3j). 
 
-  See more at **[newton-web3j](https://github.com/newtondevelop/newton-web3j/tree/newton-android)**(It\`s in the same repo with java library but in different branch).
+  See more at **[newchain-web3j](https://github.com/newtonproject/newchain-web3j/tree/android-release)**(It\`s in the same repo with java library but in different branch).
 
 - #### NewPay keystore for Java
 
-  This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [NewPay Android example](https://github.com/newtondevelop/newpay-android-example) to depend on.
+  This library is forked from [Bitcoinj](https://github.com/bitcoinj/bitcoinj), which is to support [bip44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md) protocol. And it\`s a basic library for [NewPay Android example](https://github.com/newtonproject/newpay-android-example) to depend on.
 
-  We changed [Bitcoin seed](https://github.com/bitcoinj/bitcoinj/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) to [Nist256p1 seed](https://github.com/newtondevelop/newton-keystore-java/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L66).
+  We changed [Bitcoin seed](https://github.com/bitcoinj/bitcoinj/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L65) to [Nist256p1 seed](https://github.com/newtonproject/newton-keystore-java/blob/master/core/src/main/java/org/bitcoinj/crypto/HDKeyDerivation.java#L66).
 
-  See more at **[newpay-keystore-java](https://github.com/newtondevelop/newton-keystore-java)**.
+  See more at **[newpay-java-keystore](https://github.com/newtonproject/newpay-java-keystore)**.
 
 ### iOS
 
@@ -70,19 +70,19 @@ console.log('uncompressed public key:' + publicKey)
 
   A CocoaPods wrapper around the [trezor-crypto](https://github.com/trezor/trezor-crypto) C library.
 
-  See more at **[newpay-crypto-ios](https://github.com/newtondevelop/newpay-crypto-ios)**.
+  See more at **[newpay-ios-crypto](https://github.com/newtonproject/newpay-ios-crypto)**.
 
-- #### Newpay Contract Utility
+- #### Newpay iOS Contract Utility
 
   Core Ethereum data structures and algorithms, which is forked and modified from [trust-core](https://github.com/trustwallet/trust-core).
 
-  See more at **[newpay-contract-utility-ios](https://github.com/newtondevelop/newpay-contract-utility-ios)**.
+  See more at **[newpay-ios-contract-utility](https://github.com/newtonproject/newpay-ios-contract-utility)**.
 
 - #### NewPay Keystore for iOS
 
   A general-purpose Ethereum keystore for managing wallets, which is forked and modified from [trust-keystore](https://github.com/trustwallet/trust-keystore).
 
-  See more at **[newpay-keystore-ios](https://github.com/newtondevelop/newpay-keystore-ios)**.
+  See more at **[newpay-ios-keystore](https://github.com/newtonproject/newpay-ios-keystore)**.
 
 ### Python
 
@@ -106,7 +106,7 @@ console.log('uncompressed public key:' + publicKey)
 
   This is an Android demo of Newpay. You can refer to this demo to build your own Newpay Android wallet.
 
-  See more at **[newpay-android-example](https://github.com/newtondevelop/newpay-android-example)**.
+  See more at **[newpay-android-example](https://github.com/newtonproject/newpay-android-example)**.
 
 ### iOS
 
@@ -114,7 +114,7 @@ console.log('uncompressed public key:' + publicKey)
 
   This is an iOS demo of Newpay. You can refer to this demo to build your own Newpay iOS wallet。
 
-  See more at **[newpay-ios-example](https://github.com/newtondevelop/newpay-ios-example)**.
+  See more at **[newpay-ios-example](https://github.com/newtonproject/newpay-ios-example)**.
 
 ### Java
 
@@ -122,7 +122,7 @@ console.log('uncompressed public key:' + publicKey)
 
   Example of NewChain SDK for java.
 
-  See more at **[Java example](https://github.com/newtondevelop/newton-example-java)**.
+  See more at **[Java example](https://github.com/newtonproject/newton-example-java)**.
 
 ### Node.js
 
